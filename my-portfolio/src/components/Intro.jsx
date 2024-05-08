@@ -5,14 +5,22 @@ import me from "../assets/me.jpg";
 const Intro = () => {
   return (
     <div className=" ">
-      <img src={me} alt="logo" className="w-[25%] rounded-[1.5rem] border border-white" />
+      <img
+        src={me}
+        alt="logo"
+        className="w-[25%] rounded-[1.5rem] border border-white"
+      />
 
       <h3 className="font-extrabold text-4xl text-white my-[2rem]">
         Hi there! I'm{" "}
         <span className="text-[#3be1ac]">
           <Typewriter
             options={{
-              strings: ["ABHAY RAJ","A BACKEND DEVELOPER","A COMPUTER SCIENCE ENGINEER"],
+              strings: [
+                "ABHAY RAJ",
+                "A BACKEND DEVELOPER",
+                "A COMPUTER SCIENCE ENGINEER",
+              ],
               autoStart: true,
               loop: true,
             }}
@@ -22,24 +30,29 @@ const Intro = () => {
 
       <div className="flex flex-col gap-4 mb-7">
         <p className="text-white">
-          A dedicated and passionate creator with a love for turning ideas into
-          reality. Whether it's crafting compelling narratives, designing
-          captivating visuals, or solving complex problems, I thrive on the
-          challenges that come with bringing ideas to life.
+          My passion lies in backend development, where I thrive on building the
+          robust systems that power user experiences. I enjoy the challenge of
+          crafting clean, efficient code that forms the foundation of
+          interactive applications.
+        </p>
+        <p className="text-white">
+          I bring a strong problem-solving mindset to every project I tackle. I
+          relish the opportunity to delve into complex issues, analyze them
+          systematically, and develop elegant solutions.
         </p>
         <p className="text-white">
           Currently immersed in the captivating world of Computer Science{" "}
           <span className="text-[#3be1ac]">Engineering</span> as a college
           student. My educational roots trace back to{" "}
-          <span className="text-[#3be1ac]">National High School</span>, where I
+          <span className="text-[#3be1ac]">Gramin Intermediate Mahavidlaya</span>, where I
           laid the foundation for my academic journey.
         </p>
         <p className="text-white">
-          Proficient in <span className="text-[#3be1ac]">web development</span>,
+          Proficient in <span className="text-[#3be1ac]">Backend development</span>,
           I've honed my skills in crafting dynamic and user-friendly websites
           that seamlessly blend form and function. Beyond the code, I immerse
           myself in the realm of{" "}
-          <span className="text-[#3be1ac]">UI designing</span>, ensuring that
+          <span className="text-[#3be1ac]">problem solving</span>, ensuring that
           each digital experience is not just efficient but aesthetically
           pleasing.
         </p>
@@ -63,7 +76,7 @@ const Intro = () => {
       <ul className=" flex items-center w-full overflow-x-auto gap-4">
         <li className="border border-faint-white py-[0.4rem] rounded-md px-[1rem] hover:bg-[rgb(59,225,172)] bg-[#19181814] hover:text-black transition duration-500 ease-in-out cursor-pointer text-white">
           <a
-            href="mailto:aniket.singh07vs@gmail.com"
+            href="mailto:abhayraj.svm14@gmail.com"
             className="flex items-center gap-2"
           >
             <i className="ri-mail-line"></i>
@@ -72,7 +85,7 @@ const Intro = () => {
         </li>
         <li className="border border-faint-white py-[0.4rem] rounded-md px-[1rem] hover:bg-[rgb(59,225,172)] bg-[#19181814] hover:text-black transition duration-500 ease-in-out cursor-pointer text-white">
           <a
-            href="https://github.com/aniketsinghh"
+            href="https://github.com/mini-360"
             className="flex items-center gap-2"
           >
             <i className="ri-github-line"></i>
@@ -81,7 +94,7 @@ const Intro = () => {
         </li>
         <li className="border border-faint-white py-[0.4rem] rounded-md px-[1rem] hover:bg-[rgb(59,225,172)] bg-[#19181814] hover:text-black transition duration-500 ease-in-out cursor-pointer text-white">
           <a
-            href="https://www.linkedin.com/in/aniket-singhh/"
+            href="https://www.linkedin.com/in/abhay-raj14/"
             className="flex items-center gap-2"
           >
             <i className="ri-linkedin-fill"></i>
