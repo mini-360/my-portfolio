@@ -11,7 +11,7 @@ function Skills() {
           <li className="text-white">CSS</li>
           <li className="text-white">TailWind CSS</li>
           <li className="text-white">JS</li>
-          <li className="text-white">ReactJS (Currently focusing on Backend Part)</li>
+          <li className="text-white">NodeJs (Currently focusing on Backend Part)</li>
         </ol>
       </div>
     </div>

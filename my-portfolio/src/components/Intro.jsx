@@ -12,7 +12,7 @@ const Intro = () => {
         <span className="text-[#3be1ac]">
           <Typewriter
             options={{
-              strings: ["ANIKET SINGH","A FULL STACK DEVELOPER","A COMPUTER SCIENCE ENGINEER"],
+              strings: ["ABHAY RAJ","A BACKEND DEVELOPER","A COMPUTER SCIENCE ENGINEER"],
               autoStart: true,
               loop: true,
             }}
